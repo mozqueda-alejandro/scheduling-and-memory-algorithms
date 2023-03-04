@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "check shortestRemaining",
+      "setup": "",
+      "run": "python3 batchSchedulingComparison.py pa2_batchfile.txt ShortestRemaining",
+      "input": "",
+      "output": "\r\nPID ORDER OF EXECUTION:\r\n\r\n1\r\n7\r\n1\r\n2\r\n3\r\n\r\nAverage Process Turnaround Time: 35.00\r\nAverage Process Wait Time: 13.5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "check RoundRobinSort",
+      "setup": "",
+      "run": "python3 batchSchedulingComparison.py pa2_batchfile.txt RoundRobin",
+      "input": "",
+      "output": "PID ORDER OF EXECUTION:\r\n\r\n1\r\n2\r\n3\r\n7\r\n1\r\n2\r\n3\r\n3\r\n3\r\n3\r\n\r\nAverage Process Turnaround Time: 55.25\r\nAverage Process Wait Time: 36.25",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "check for bash script",
+      "setup": "",
+      "run": "./memoryCheck.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "check for answers.txt",
+      "setup": "",
+      "run": "cat answers.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
