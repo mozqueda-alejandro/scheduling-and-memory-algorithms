@@ -1,0 +1,11 @@
+1) What is the difference between the 3 tools?
+    Although they are all are all commonly used linux system memory tools that provide vital information, they have some differences that set them apart. Vmstat is a tool that provides information about processes, memory, paging, block; top provides a dynamic real-time view of a running system, displaying system summary info and a list of processes or threads currently being managed by the kernel; while free displays the total amount of free/used memory, buffers, and caches in the system.
+
+2) You're working on an ubuntu system when you notice that the system has become less responsive to your clicks. What could be happening in memory to slow the system? Which of the 3 commands would be most appropriate to check if that's the case?
+    This may result from high memory usage that comes with something like a memory leak or high swapping usage. The most appropriate command should be free since it provides memory, swapping usage, and caching statistics. Alternatively, the top command may work since it provides memory usage for various processes.
+
+3) You're working on an ubuntu system when you get a message saying that there isn't enough free memory to save your text file. Would this indicate that RAM or your HDD is full? Which command of the 3 above would be the fastest way to check the cause of the message?
+    This is an indication that the RAM is full. The free command would be the fastest way to check the cause because it checks the memory usage and would allow one to compare the free usage to total usage.
+
+4) You would like to know how often processes are being interrupted or page faulting, and how much memory has been reserved to swap pages on and off RAM. Which command is best for that? What entries would you look at?
+    The vmstat command should be ideal because of the ability to view swap in/out, blocks in/out, interrupts and context switches for this case. You would need to look at the "in" column for interrupts and the "si" and "so" columns for page faults because it would indicate number of pages swapped in and out.

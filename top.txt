@@ -1,0 +1,62 @@
+top - 23:19:14 up 7 min,  0 users,  load average: 0.24, 0.15, 0.06
+Tasks:  25 total,   1 running,  24 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.4 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   9012.9 total,   7789.5 free,    415.4 used,    807.9 buff/cache
+MiB Swap:   3072.0 total,   3072.0 free,      0.0 used.   8355.0 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0     916    532    476 S   0.0   0.0   0:00.03 init
+    7 root      20   0     908     84     20 S   0.0   0.0   0:00.00 init
+    8 root      20   0     908     84     20 S   0.0   0.0   0:00.13 init
+    9 admozqu+  20   0   10304   5316   3372 S   0.0   0.1   0:00.09 bash
+  158 root      20   0    1004    100     20 S   0.0   0.0   0:00.00 init
+  159 root      20   0    1004    100     20 S   0.0   0.0   0:00.01 init
+  160 admozqu+  20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+  161 admozqu+  20   0    2612    528    460 S   0.0   0.0   0:00.00 sh
+  166 admozqu+  20   0    2612    528    464 S   0.0   0.0   0:00.00 sh
+  170 admozqu+  20   0  970900 111260  36172 S   0.0   1.2   0:28.97 node
+  181 admozqu+  20   0  636152  47680  33280 S   0.0   0.5   0:00.47 node
+  201 root      20   0    1012    100     20 S   0.0   0.0   0:00.00 init
+  202 root      20   0    1012    104     20 S   0.0   0.0   0:00.07 init
+  203 admozqu+  20   0  591316  41840  26972 S   0.0   0.5   0:00.24 node
+  220 root      20   0    1012    100     20 S   0.0   0.0   0:00.00 init
+  221 root      20   0    1012    104     20 S   0.0   0.0   0:00.06 init
+  222 admozqu+  20   0  518480  35584  26924 S   0.0   0.4   0:00.20 node
+  229 admozqu+  20   0  835544  43544  32492 S   0.0   0.5   0:00.18 node
+  240 admozqu+  20   0   21.2g 178200  39708 S   0.0   1.9   0:03.14 node
+  493 admozqu+  20   0   10156   5224   3440 S   0.0   0.1   0:00.02 bash
+  696 admozqu+  20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+  697 admozqu+  20   0    8620   3420   3152 S   0.0   0.0   0:00.00 cpuUsage.sh
+  700 admozqu+  20   0    7232    580    516 S   0.0   0.0   0:00.00 sleep
+  702 admozqu+  20   0    8752   3556   3180 S   0.0   0.0   0:00.00 memoryCheck.sh
+  704 admozqu+  20   0   10864   3664   3208 R   0.0   0.0   0:00.00 top
+
+top - 23:19:17 up 7 min,  0 users,  load average: 0.24, 0.15, 0.06
+Tasks:  22 total,   1 running,  21 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   9012.9 total,   7789.7 free,    415.3 used,    807.9 buff/cache
+MiB Swap:   3072.0 total,   3072.0 free,      0.0 used.   8355.1 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  181 admozqu+  20   0  636664  47144  33280 S   0.7   0.5   0:00.49 node
+  170 admozqu+  20   0  970900 111260  36172 S   0.3   1.2   0:28.98 node
+  203 admozqu+  20   0  591316  41840  26972 S   0.3   0.5   0:00.25 node
+  240 admozqu+  20   0   21.2g 178268  39708 S   0.3   1.9   0:03.15 node
+    1 root      20   0     916    532    476 S   0.0   0.0   0:00.03 init
+    7 root      20   0     908     84     20 S   0.0   0.0   0:00.00 init
+    8 root      20   0     908     84     20 S   0.0   0.0   0:00.13 init
+    9 admozqu+  20   0   10304   5316   3372 S   0.0   0.1   0:00.09 bash
+  158 root      20   0    1004    100     20 S   0.0   0.0   0:00.00 init
+  159 root      20   0    1004    100     20 S   0.0   0.0   0:00.01 init
+  160 admozqu+  20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+  161 admozqu+  20   0    2612    528    460 S   0.0   0.0   0:00.00 sh
+  166 admozqu+  20   0    2612    528    464 S   0.0   0.0   0:00.00 sh
+  201 root      20   0    1012    100     20 S   0.0   0.0   0:00.00 init
+  202 root      20   0    1012    104     20 S   0.0   0.0   0:00.07 init
+  220 root      20   0    1012    100     20 S   0.0   0.0   0:00.00 init
+  221 root      20   0    1012    104     20 S   0.0   0.0   0:00.06 init
+  222 admozqu+  20   0  518480  35848  26924 S   0.0   0.4   0:00.20 node
+  229 admozqu+  20   0  835544  43544  32492 S   0.0   0.5   0:00.18 node
+  493 admozqu+  20   0   10156   5224   3440 S   0.0   0.1   0:00.02 bash
+  702 admozqu+  20   0    8752   3556   3180 S   0.0   0.0   0:00.00 memoryCheck.sh
+  704 admozqu+  20   0   10832   3716   3216 R   0.0   0.0   0:00.00 top
